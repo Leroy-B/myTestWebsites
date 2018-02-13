@@ -1,0 +1,194 @@
+<!doctype html>
+
+<!--- Mobile site responsive flexboxes -Leroy --->
+
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Pervas</title>
+        
+        <style>
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing:  border-box;
+                font-family: Arial, sans-serif;
+            }
+            
+			.flex_container {
+                width: 100%;
+                display: flex;
+                align-content: space-between;
+                background-color: white;
+                padding: 10px;
+				flex-wrap: wrap;
+			}
+			
+            .flex_box {
+                display: block;
+                padding:  5px;
+            }
+            .flex_box_33 {
+                width: 33.3333%;
+                text-align: center;
+            }
+            .flex_box_100 {
+                width: 100%;
+            }
+            
+            .button {
+                position: relative;
+                height: 100%;
+                background: #4ab4e8;
+            }
+            .button_100 {
+                position: relative;
+                width: 100%;
+                background: #0065ae;
+                color: white;
+                margin: 10px 0px;
+                padding: 10px;
+            }
+            .list_100 {
+                position: relative;
+                width: 100%;
+                background: #e1f0f7;
+                color: black;
+                margin: 10px 0px;
+                padding: 10px;
+                padding-left: 30px;
+            }
+            .button_inner {
+                position: relative;
+                padding: 50px 10px 10px 10px;
+            }
+            .icon {
+                position: absolute;
+                left:  50%;
+                top:  10px;
+                width: 40px;
+                margin-left: -20px;
+                height: 30px;
+                background-repeat:  no-repeat;
+                background-position:  center;
+                background-size:  contain;
+            }
+            .button_text {
+                text-align: center;
+                font-size: 15px;
+                font-weight: normal
+            }
+            .button_text span {
+                color: white;
+            }
+			
+			h1 {
+				color: #0065ae;
+				font-size: 25px;
+                line-height: 30px;
+                font-weight: normal;
+				
+			}
+		</style>
+	</head>
+	<body>
+        <div class="flex_container">
+            
+            <!--- H1 --->
+            <div class="flex_box flex_box_100"><h1>PREVAS BVG APP:<br>Bestimmungen & mehr</h1></div>
+            
+            
+            <!--- Top Icon Boxes Row 1--->
+            <div class="flex_box flex_box_33">
+                <div class="button">
+                <div class="button_inner">
+                    <div class="icon" style="background-image: url('http://www.evexar.com/assets/icon-warning1.png')"></div>
+                    <div class="button_text">nach einer <span>Bestimmung</span> suchen</div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="flex_box flex_box_33">
+                <div class="button">
+                <div class="button_inner">
+                    <div class="icon" style="background-image: url('http://www.evexar.com/assets/icon-warning1.png')"></div>
+                    <div class="button_text">im <span>Stichwort&shy;verzeichnis</span> suchen</div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="flex_box flex_box_33">
+                <div class="button">
+                <div class="button_inner">
+                    <div class="icon" style="background-image: url('http://www.evexar.com/assets/icon-warning1.png')"></div>
+                    <div class="button_text">eine freie <span>Textsuche</span> starten</div>
+                </div>
+                </div>
+            </div>
+            
+            
+            <!--- Top Icon Boxes Row 2--->
+            <div class="flex_box flex_box_33">
+                <div class="button">
+                <div class="button_inner">
+                    <div class="icon" style="background-image: url('http://www.evexar.com/assets/icon-warning1.png')"></div>
+                    <div class="button_text">aktuelle <span>Grenzbeträge</span> anzeigen</div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="flex_box flex_box_33">
+                <div class="button">
+                <div class="button_inner">
+                    <div class="icon" style="background-image: url('http://www.evexar.com/assets/icon-warning1.png')"></div>
+                    <div class="button_text">aktuelle <span>Ausbildungen</span> anzeigen</div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="flex_box flex_box_33">
+                <div class="button">
+                <div class="button_inner">
+                    <div class="icon" style="background-image: url('http://www.evexar.com/assets/icon-warning1.png')"></div>
+                    <div class="button_text">aktuelle <span>Renditezahlen</span> anzeigen</div>
+                </div>
+                </div>
+            </div>
+            
+            <!--- H1 --->
+            <div class="flex_box flex_box_100"><h1>Newsticker</h1></div>
+            
+            <!--- Unorderd List --->
+            <div class="flex_box flex_box_100">
+                <div class="list_100">
+                    <ul>
+                        <li>Exactis und PREVAS rucken zusammen</li>
+                        <li>Neuer Newsletter der PREVAS erschienen</li>
+                        <li>PK-Rating: PREVAS-Sammelstiftung top</li>
+                        <li>GEWOS-Tagung AIS 17.11.2017 in Aarau</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--- Bottom Button Culumms --->
+            <div class="flex_box flex_box_100">
+                <div class="button_100 button_text">
+                    <span>auf die <strong>PREVAS Website</strong> wechseln</span>
+                </div>
+                
+                <div class="button_100 button_text">
+                    <span><strong>Kontakte</strong> und soziale <strong>Medienpräsenz</strong> anzeigen</span>
+                </div>
+                
+            </div>
+            
+        </div>
+    
+    </body>
+</html>
+
+
+
+
+
